@@ -1,0 +1,157 @@
+.titulo{
+    font-size: 100px;
+    text-align: center;
+    color: pink;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.sub-titulo{
+    font-size: 20px;
+    text-align: center;
+    color: hotpink;
+    font-family: 'Libre Caslon Display', serif;
+}
+a{
+    text-decoration:none;
+    color:hotpink;
+    transition:all .5s ease;
+    
+}
+
+#navegador ul {
+    display:flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 10 auto ;
+    font-family: 'Libre Caslon Display', serif;
+  }
+
+  #navegador a {
+    background: transparent;
+    border:2px soli wheat;
+    padding:5px;
+    text-decoration:tan;
+ 
+  }
+
+  #navegador a:hover {
+
+    color:#fff;
+    background: pink;
+    border:2px  hotpink;
+    text-decoration:underline;
+  
+  }
+
+  .fondo{
+      background-image: url(../img/78e20cce7ea8b3fc09b6d6a79e046e3e.jpg);
+      opacity: 1;
+  }
+
+  .inicio{
+      text-align: center;
+
+  }
+
+  .tarjeta-contenedor{
+      margin-top: 50px;
+      background-color: rgb(219, 146, 193);
+      max-width: 900px;
+      margin: 0 auto;
+      text-decoration-color: moccasin;
+  }
+  
+  
+  .galeria {
+    height: calc( 300px + 3em);
+    width: 260px;
+    margin:1em auto;
+    border: 1px solid #555;
+    position: relative;  
+  }
+  
+  .galeria img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+  }
+  .galeria input[type=radio] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: .5em;
+  }
+  .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+    opacity: 1;
+  }
+  .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+    opacity: 1;
+  }
+  
+  .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+    opacity: 1;
+  }
+
+ table {
+    width: 80%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+ }
+
+.Infantil{
+  display: block;
+  margin: 20px auto;
+  background-color: hotpink;
+  color: #fff;
+  padding: 15px;
+}
+
+.Deportivo{
+  display: block;
+  margin: 20px auto;
+  background-color: hotpink;
+  color: #fff;
+  padding: 15px;
+}
+
+.Labios{
+  display: block;
+  margin: 20px auto;
+  background-color: hotpink;
+  color: #fff;
+  padding: 15px;
+}
+
+.Ojos{
+  display: block;
+  margin: 20px auto;
+  background-color: hotpink;
+  color: #fff;
+  padding: 15px;
+}
+
+.Simple{
+  display: block;
+  margin: 20px auto;
+  background-color: hotpink;
+  color: #fff;
+  padding: 15px;
+}
+
+.central{
+  display: block;
+  margin: 20px auto;
+  background-color: hotpink;
+  color: #fff;
+  padding: 15px;
+}
